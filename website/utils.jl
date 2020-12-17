@@ -1,3 +1,11 @@
+using Franklin, JSON
+using Markdown, Dates
+include("bilibili_videos.jl")
+
+
+const DATEFMT = dateformat"yyyy-mm-dd HH:MMp"
+const TZ = "Asia/Shanghai"
+
 function hfun_bar(vname)
   val = Meta.parse(vname[1])
   return round(sqrt(val), digits=2)
@@ -15,11 +23,12 @@ function lx_baz(com, _)
   return uppercase(brace_content)
 end
 
-
 function hfun_bilibili(params)
-  aid = params[1]
-  bvid = params[2]
-  cid = params[3]
+  id = params[1]
+  trueid = get(videos, id, id)
+  aid = getindex(trueid,1)
+  bvid = getindex(trueid,2)
+  cid = getindex(trueid,3)  
 
   return """
   <div style="text-align: center;">
