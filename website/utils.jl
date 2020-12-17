@@ -22,6 +22,8 @@ function hfun_bilibili(params)
   cid = params[3]
 
   return """
+  <div style="text-align: center;">
   <iframe src="//player.bilibili.com/player.html?aid=$aid&bvid=$bvid&cid=$cid&page=1&as_wide=1&high_quality=1&danmaku=0&t=0" scrolling="no" border="0" frameborder="no" framespacing="0" width="480" height="360" allowfullscreen="true"></iframe>
+  </div>
   """
 end
