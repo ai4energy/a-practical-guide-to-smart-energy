@@ -14,3 +14,14 @@ function lx_baz(com, _)
   # do whatever you want here
   return uppercase(brace_content)
 end
+
+
+function hfun_bilibili(params)
+  aid = params[1]
+  bvid = params[2]
+  cid = params[3]
+
+  return """
+  <iframe src="//player.bilibili.com/player.html?aid=$aid&bvid=$bvid&cid=$cid&page=1&as_wide=1&high_quality=1&danmaku=0&t=0" scrolling="no" border="0" frameborder="no" framespacing="0" width="96%" height="360" allowfullscreen="true"></iframe>
+  """
+end

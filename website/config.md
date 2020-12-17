@@ -60,8 +60,6 @@ For instance:
 \newcommand{\out}[1]{@@code-output \show{#1} @@}
 
 \newcommand{\blurb}[1]{~~~<p style="font-size: 1.15em; color: #333; line-height:1.5em">~~~#1~~~</p>~~~}
-\newcommand{\youtube}[1]{<iframe width="1020" height="574" src="https://www.youtube.com/embed/#1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>}
-
 
 \newcommand{\R}{\mathbb R}
 \newcommand{\scal}[1]{\langle #1 \rangle}
