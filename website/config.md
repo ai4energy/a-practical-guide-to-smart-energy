@@ -9,7 +9,7 @@ The website_* must be defined for the RSS to work
 
 @def title         = "智慧能源实践之路"
 
-@def prepath       = "msoc"
+<!-- @def prepath       = "msoc" -->
 @def description = """智慧能源实践之路课程网站"""
 @def author        = "Mingtao Li"
 @def mintoclevel   = 2
