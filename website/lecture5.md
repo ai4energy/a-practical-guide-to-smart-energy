@@ -1,5 +1,27 @@
-@def title = "第5讲 能源系统建模概述"
+@def title = "第5讲 相关IT知识"
 
-# 能源系统建模概述
+# 相关IT知识
 
 \tableofcontents
+
+## JAVA
+
+## Javascript
+
+## Python
+
+## Modelica
+
+## VSCode
+
+## git及github
+
+## Fortran
+
+## Makefile
+
+## Julia
+
+## Jupyter
+
+## Pluto.jl
