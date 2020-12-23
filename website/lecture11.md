@@ -1,6 +1,6 @@
-@def title = "第11讲 modelica简介"
+@def title = "第11讲 仿真概述"
 
-# modelica简介
+# 仿真概述
 
 \tableofcontents
 
